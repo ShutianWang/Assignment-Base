@@ -13,13 +13,29 @@ html {
 .header{
     font-size: 2em;
     color: black;
-    
+
     font-size: 45px;
 }
 label {
     font-size: 18px;
 }
 
-.Search {
+.MainContainer {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.Search {
+    width: 350px;
+    height: 35px;
+}
+
+.input {
+    width: 75%;
+    padding: 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: coral;
 }
