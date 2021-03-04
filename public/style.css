@@ -39,3 +39,54 @@ label {
     box-sizing: border-box;
     background-color: coral;
 }
+
+#Search {
+    width: 500px;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#SearchContainer {
+    position: relative;
+}
+
+#SearchContainer ul{
+  width: 500px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+#SearchContainer li{
+  border-bottom: 1px solid #4D243D(16, 129, 21);
+  margin: 0px;
+  padding: 10px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #AC8295 0%, #EBCFC4 100%);
+  display: block;
+}
+
+.RestaurantsList {
+  border-top: 1px solid pink ;
+  margin-bottom: 100px;
+}
+
+  @media (min-width: 1000px){
+    h1 {
+      font-size: 5rem;
+    }
+    .first-half.page {
+      width: 48%;
+    }
+    .column:first-child, .columns:first-child {
+      margin-left: 0px;
+    }
+    
+  }
