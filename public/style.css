@@ -1,0 +1,25 @@
+body {
+    color:black;
+    background-color: #eee;
+    padding: 50x 0;
+    text-align: center;
+    margin: 0px;
+}
+
+html {
+    font-size: 12px;
+}
+
+.header{
+    font-size: 2em;
+    color: black;
+    
+    font-size: 45px;
+}
+label {
+    font-size: 18px;
+}
+
+.Search {
+
+}
