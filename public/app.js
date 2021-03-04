@@ -28,3 +28,5 @@ const searchInput = document.querySelector('.Search')
 const suggestions = document.querySelector('.RestaurantList')
 
 searchInput.addEventListener('keyup', displayMatches);
+
+window.onload = windowActions;
