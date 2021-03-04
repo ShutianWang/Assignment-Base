@@ -1,16 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Christian Love, Shutian Wang Assignment 1</title>
+    <link rel="stylesheet" href="">
 </head>
+
 <body>
-    <form action="/api" method = "post">
-        <label for="zipcode">zipcode</label>
-        <input type="text" id="zipcode" name="zipcode" placeholder="zip code"> 
-        <button type="submit" name="submit" id="submit">Submit</button> 
-    <input type="text">
-    
-    Put your app here
+    <div class="MainContainer">
+        <h1 class='header'>
+            Assignment 1:
+            <br>1. Christian Love <br>2. Shutian Wang
+        </h1>
+    </div>
+
+    <div class='list'>
+        <form class='userform' action='/api' method="POST">
+            <label for="search"></label>
+            <input type="text" class='Search' name="Search" id="Search"> 
+        
+        </form>
+    </div>
+
+    <div id='SearchContainer'>
+        <ul class="RestaurantList"></ul>
+    </div>
+
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
