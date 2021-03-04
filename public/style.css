@@ -11,10 +11,10 @@ html {
 }
 
 .header{
-    font-size: 2em;
-    color: black;
-
+    font-size: 1em;
+    color: #373536;
     font-size: 45px;
+    display: inline;
 }
 label {
     font-size: 18px;
@@ -24,7 +24,11 @@ label {
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    display: flex;
+    max-width: 800px;
+    min-height: 100px;
 }
 
 .Search {
@@ -32,7 +36,13 @@ label {
     height: 35px;
 }
 
-.input {
+.list {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+input {
     width: 75%;
     padding: 10px 10px;
     margin: 10px;
@@ -44,7 +54,7 @@ label {
     width: 500px;
     height: 32px;
     border-radius: 3px;
-    border: 1px solid black;
+    border: 1px solid #373536;
     padding: 5px 10px;
     font-size: 12px;
 }
@@ -65,11 +75,11 @@ label {
 }
 
 #SearchContainer li{
-  border-bottom: 1px solid #4D243D(16, 129, 21);
+  border-bottom: 1px solid #F04D39(16, 129, 21);
   margin: 0px;
   padding: 10px;
   border-radius: 3px;
-  background: linear-gradient(to bottom, #AC8295 0%, #EBCFC4 100%);
+  background: linear-gradient(to bottom,#F0B92D 0%, #F3D487 100%);
   display: block;
 }
 
