@@ -80,7 +80,7 @@ input {
 
 #SearchContainer li{
   border-bottom: 1px solid #F04D39(16, 129, 21);
-  margin: 0px;
+  margin: 20px;
   padding: 10px;
   border-radius: 3px;
   background: linear-gradient(to bottom,#F3D487 0%, #F0B92D 80%);
