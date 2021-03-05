@@ -1,6 +1,6 @@
 body {
     color:black;
-    background-color: #eee;
+    background-color: #CAF4F4;
     padding: 50x 0;
     text-align: center;
     margin: 0px;
@@ -11,10 +11,10 @@ html {
 }
 
 .header{
-    font-size: 1em;
+    font-size: 2em;
     color: #373536;
-    font-family: 'Comfortaa', cursive;
-    font-size: 40px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     margin: auto; 
 }
@@ -27,10 +27,11 @@ label {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     max-width: 800px;
     min-height: 100px;
+    margin: auto;
 }
 
 .Search {
