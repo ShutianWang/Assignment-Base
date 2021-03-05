@@ -19,12 +19,12 @@ function displayMatches(event) {
     console.log(document.getElementById("search").value);
     const html = matchArray.map(place => {
         return  `<li> 
-        <span class="name">${place.name}</span>
+        <span class="name"><b>${place.name}</b></span>
         <br/>
-        <span class="category">${place.category}</span>
+        <span class="category"><b>${place.category}</b></span>
         <br/>
-        <address>${place.address_line_1} 
-        <br/>${place.city}, ${place.state} ${place.zip}</address>
+        <address><b>${place.address_line_1}</b> 
+        <br/><b>${place.city}, ${place.state} ${place.zip}</b></address>
         </li>`;
     }).join('');
     suggestions.innerHTML = html;
