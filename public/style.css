@@ -1,6 +1,5 @@
 body {
     color:black;
-    background-color: #CAF4F4;
     padding: 50x 0;
     text-align: center;
     margin: 0px;
@@ -8,6 +7,8 @@ body {
 
 html {
     font-size: 12px;
+    background-color: #CAF4F4
+
 }
 
 .header{
@@ -17,6 +18,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     display: inline;
     margin: auto; 
+    font-weight: 900;
 }
 label {
     font-size: 18px;
@@ -50,7 +52,7 @@ input {
     padding: 10px 10px;
     margin: 10px;
     box-sizing: border-box;
-    background-color: coral;
+    background-color: rgb(255, 255, 255);
 }
 
 #Search {
@@ -83,8 +85,9 @@ input {
   margin: 20px;
   padding: 10px;
   border-radius: 3px;
-  background: linear-gradient(to bottom,#f1d07b 0%, #F3D487 80%);
+  background: linear-gradient(to bottom,#f1d07b 0%, #ecb220 80%);
   display: block;
+  font-size: 20px;
 }
 
 .RestaurantsList {
@@ -103,4 +106,8 @@ input {
       margin-left: 0px;
     }
     
+  }
+
+  .name{
+    text-shadow: 2px 2px rgb(170, 170, 170);
   }
