@@ -82,7 +82,7 @@ input {
   margin: 0px;
   padding: 10px;
   border-radius: 3px;
-  background: linear-gradient(to bottom,#F0B92D 0%, #F3D487 100%);
+  background: linear-gradient(to bottom,#F3D487 0%, #F0B92D 80%);
   display: block;
 }
 
