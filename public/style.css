@@ -13,8 +13,10 @@ html {
 .header{
     font-size: 1em;
     color: #373536;
-    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
     display: inline;
+    margin: auto; 
 }
 label {
     font-size: 18px;
@@ -61,12 +63,13 @@ input {
 
 #SearchContainer {
     position: relative;
+    margin: auto;
 }
 
 #SearchContainer ul{
   width: 500px;
   list-style: none;
-  margin: 0px;
+  margin: auto;
   padding: 0px;
   border-width: initial;
   border-style: none;
