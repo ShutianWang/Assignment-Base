@@ -10,7 +10,7 @@ const request = await fetch(endpoint)
 function findMatches(wordToMatch, restaurants) {
     return restaurants.filter(place => {
         const regex = new RegExp(wordToMatch, 'gi');
-        return place.name.match(regex) || place.zip.match(regex) || place.category.match(regex) || place.city.match(regex)
+        return place.name.match(regex) || place.zip.match(regex) || place.category.match(regex)
     });
 }
 
